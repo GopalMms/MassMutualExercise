@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-29T16:43:35.753Z",
+        "line": 2,
+        "name": "verify all objectives on mock page",
+        "description": "",
+        "id": "massmutual-exercise;verify-all-objectives-on-mock-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1233496200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "massMutual.gui.stepDefinitions.HomePageStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5001528500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on Exercise mock page",
+            "match": {
+              "location": "massMutual.gui.stepDefinitions.HomePageStepDefinitions.i_am_on_Exercise_mock_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11031900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "verify the values on the screen are greater than 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 49
+                }
+              ],
+              "location": "massMutual.gui.stepDefinitions.HomePageStepDefinitions.verify_the_values_on_the_screen_are_greater_than(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify the total balance based on the values listed in the screen",
+            "match": {
+              "location": "massMutual.gui.stepDefinitions.HomePageStepDefinitions.verify_the_total_balance_based_on_the_values_listed_in_the_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15069837500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify if the values are formatted with currency",
+            "match": {
+              "location": "massMutual.gui.stepDefinitions.HomePageStepDefinitions.verify_if_the_values_are_formatted_with_currency()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15068613200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify if right count of values appear on the screen",
+            "match": {
+              "location": "massMutual.gui.stepDefinitions.HomePageStepDefinitions.verify_if_right_count_of_values_appear_on_the_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify if total balance matches sum of the values",
+            "match": {
+              "location": "massMutual.gui.stepDefinitions.HomePageStepDefinitions.verify_if_total_balance_matches_sum_of_thevalues()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "MassMutual Exercise",
+    "description": "",
+    "id": "massmutual-exercise",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuresFiles/HomePage.feature",
+    "tags": []
+  }
+]
